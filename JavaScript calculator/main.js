@@ -20,6 +20,10 @@ while (true) {
         console.log(num1, operation, num2, "=", num1 * num2)
     } else if (operation === "/") {
         console.log(num1, operation, num2, "=", num1 / num2)
+    } else if (operation === "**") {
+        console.log(num1, operation, num2, "=", num1 ** num2)
+    } else if (operation === "%") {
+        console.log((num1, operation, num2, "=", num1 % num2))
     } else {
         console.log("არასწორი ოპერაცია")
     }
